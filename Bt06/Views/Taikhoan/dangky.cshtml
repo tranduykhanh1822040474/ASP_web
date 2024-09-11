@@ -1,0 +1,28 @@
+﻿@model TaiKhoanViewModel
+
+@section DangKy {
+    <div class="container">
+        <h3 class="text-center">Đăng ký</h3>
+        <form method="post" class="p-4 bg-light rounded shadow-sm">
+            <div class="form-group">
+                <label asp-for="Username">Username:</label>
+                <input asp-for="Username" type="text" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" type="password" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
+        </form>
+
+        <hr />
+        @if (Model.Password != null && Model.Password.Length > 0)
+        {
+            <h3>Thông tin đã nhập: </h3>
+            <p>Username: @Model.Username</p>
+            <p>Password: @Model.Password</p>
+        }
+    </div>
+}
