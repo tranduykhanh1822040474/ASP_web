@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Btkt01.props" />
+</Project>

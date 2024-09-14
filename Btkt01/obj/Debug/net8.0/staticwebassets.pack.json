@@ -1,0 +1,605 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Btkt01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Btkt01.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\calendar-icon.png",
+      "PackagePath": "staticwebassets\\images\\calendar-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\call-icon.png",
+      "PackagePath": "staticwebassets\\images\\call-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\camera-img.png",
+      "PackagePath": "staticwebassets\\images\\camera-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\computer-img.png",
+      "PackagePath": "staticwebassets\\images\\computer-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\down-arrow.png",
+      "PackagePath": "staticwebassets\\images\\down-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\fb-icon.png",
+      "PackagePath": "staticwebassets\\images\\fb-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\img-1.png",
+      "PackagePath": "staticwebassets\\images\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\img-2.png",
+      "PackagePath": "staticwebassets\\images\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\img-3.png",
+      "PackagePath": "staticwebassets\\images\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\img-4.png",
+      "PackagePath": "staticwebassets\\images\\img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\instagram-icon.png",
+      "PackagePath": "staticwebassets\\images\\instagram-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\laptop-dell-xps.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop-dell-xps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\laptop-img.png",
+      "PackagePath": "staticwebassets\\images\\laptop-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\linkedin-icon.png",
+      "PackagePath": "staticwebassets\\images\\linkedin-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\mac-img.png",
+      "PackagePath": "staticwebassets\\images\\mac-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\mail-icon.png",
+      "PackagePath": "staticwebassets\\images\\mail-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\map-icon.png",
+      "PackagePath": "staticwebassets\\images\\map-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\mobile-img.png",
+      "PackagePath": "staticwebassets\\images\\mobile-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\quick-icon.png",
+      "PackagePath": "staticwebassets\\images\\quick-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\toggle-icon.png",
+      "PackagePath": "staticwebassets\\images\\toggle-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\trolly-icon.png",
+      "PackagePath": "staticwebassets\\images\\trolly-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\user-icon.png",
+      "PackagePath": "staticwebassets\\images\\user-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\watch-img.png",
+      "PackagePath": "staticwebassets\\images\\watch-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\images\\youtub-icon.png",
+      "PackagePath": "staticwebassets\\images\\youtub-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\Btkt01\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Btkt01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Btkt01.props",
+      "PackagePath": "build\\Btkt01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Btkt01.props",
+      "PackagePath": "buildMultiTargeting\\Btkt01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Btkt01.props",
+      "PackagePath": "buildTransitive\\Btkt01.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

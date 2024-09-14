@@ -1,0 +1,31 @@
+﻿@model Btkt01.Models.TaiKhoanViewModel
+
+<h2>Đăng ký tài khoản</h2>
+
+<form asp-action="DangKy" method="post">
+    <label for="Username">Tên tài khoản:</label>
+    <input type="text" name="Username" value="@Model?.Username" />
+    <br />
+
+    <label for="Password">Mật khẩu:</label>
+    <input type="password" name="Password" />
+    <br />
+
+    <label for="FullName">Họ tên:</label>
+    <input type="text" name="FullName" value="@Model?.FullName" />
+    <br />
+
+    <label for="Age">Tuổi:</label>
+    <input type="number" name="Age" value="@Model?.Age" />
+    <br />
+
+    <input type="submit" value="Đăng Ký" />
+</form>
+
+@if (Model != null && Model.Username != null)
+{
+    <h3>Kết quả đăng ký:</h3>
+    <p><strong>Tên tài khoản:</strong> @Model.Username</p>
+    <p><strong>Họ tên:</strong> @Model.FullName</p>
+    <p><strong>Tuổi:</strong> @Model.Age</p>
+}
