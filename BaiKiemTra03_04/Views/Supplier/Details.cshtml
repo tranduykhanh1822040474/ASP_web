@@ -1,0 +1,27 @@
+﻿@model BaiKiemTra03_04.Models.Supplier
+
+@{
+    ViewData["Title"] = "Supplier Details";
+}
+
+<h2>Supplier Details</h2>
+
+<div>
+    <h4>Supplier</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Supplier ID</dt>
+        <dd class="col-sm-10">@Model.SupplierId</dd>
+
+        <dt class="col-sm-2">Supplier Name</dt>
+        <dd class="col-sm-10">@Model.SupplierName</dd>
+
+        <dt class="col-sm-2">Contact Info</dt>
+        <dd class="col-sm-10">@Model.ContactInfo</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SupplierId" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

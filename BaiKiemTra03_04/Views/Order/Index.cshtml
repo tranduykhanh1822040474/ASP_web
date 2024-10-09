@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BaiKiemTra03_04.Models.Order>
+
+<h2>Orders</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Order</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().OrderId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().OrderDate)</th>
+            <th>@Html.DisplayNameFor(model => model.First().TotalAmount)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Supplier.SupplierName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().OrderStatus)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.OrderDate.ToString("d")</td>
+                <td>@order.TotalAmount</td>
+                <td>@order.Supplier.SupplierName</td>
+                <td>@order.OrderStatus</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@order.OrderId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@order.OrderId">Delete</a> |
+                    <a asp-action="Details" asp-route-id="@order.OrderId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

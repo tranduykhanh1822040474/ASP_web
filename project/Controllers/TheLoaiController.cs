@@ -3,7 +3,7 @@ using project.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace project.Controllers
-{
+{   
     [Area("Admin")]
     public class TheLoaiController : Controller
     {

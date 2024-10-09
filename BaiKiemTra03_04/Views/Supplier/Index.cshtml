@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BaiKiemTra03_04.Models.Supplier>
+
+@{
+    ViewData["Title"] = "Supplier List";
+}
+
+<h2>Supplier List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Supplier</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Supplier ID</th>
+            <th>Supplier Name</th>
+            <th>Contact Info</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var supplier in Model)
+        {
+            <tr>
+                <td>@supplier.SupplierId</td>
+                <td>@supplier.SupplierName</td>
+                <td>@supplier.ContactInfo</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@supplier.SupplierId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@supplier.SupplierId" class="btn btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@supplier.SupplierId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
