@@ -1,28 +1,34 @@
-﻿using project.Data;
-using project.Models;
+﻿using Project.Data;
+using Project.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
-namespace project.Controllers
-{   
+namespace Project.Controllers
+{
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class TheLoaiController : Controller
     {
         private readonly ApplicationDbContext _db;
+
         public TheLoaiController(ApplicationDbContext db)
         {
             _db = db;
         }
+
         public IActionResult Index()
         {
             var theloai = _db.TheLoai.ToList();
-            ViewBag.theloai = theloai;
+            ViewBag.TheLoai = theloai;
             return View();
         }
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Create(TheLoai theloai)
         {
@@ -33,6 +39,8 @@ namespace project.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+
+
         }
         [HttpGet]
         public IActionResult Edit(int id)
@@ -44,8 +52,8 @@ namespace project.Controllers
             var theloai = _db.TheLoai.Find(id);
             return View(theloai);
         }
-        [HttpPost]
 
+        [HttpPost]
         public IActionResult Edit(TheLoai theloai)
         {
             if (ModelState.IsValid)
@@ -56,6 +64,7 @@ namespace project.Controllers
             }
             return View();
         }
+
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -66,8 +75,9 @@ namespace project.Controllers
             var theloai = _db.TheLoai.Find(id);
             return View(theloai);
         }
+
         [HttpPost]
-        public IActionResult DeleteConfirm(int id)
+        public IActionResult DeleteConform(int id)
         {
             var theloai = _db.TheLoai.Find(id);
             if (theloai == null)
@@ -78,37 +88,33 @@ namespace project.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Detail(int id)
         {
             if (id == 0)
             {
                 return NotFound();
             }
             var theloai = _db.TheLoai.Find(id);
-
             return View(theloai);
         }
+
         [HttpGet]
         public IActionResult Search(String searchString)
         {
-            List<TheLoai> theloai;
-
             if (!string.IsNullOrEmpty(searchString))
             {
-                theloai = _db.TheLoai
-                    .Where(tl => tl.Name.Contains(searchString))
-                    .ToList();
-                ViewBag.SearchString = searchString;
+                var theloai = _db.TheLoai.Where(tl => tl.Name.Contains(searchString)).ToList();
+
+                ViewBag.searchString = searchString;
+                ViewBag.TheLoai = theloai;
             }
             else
             {
-                theloai = _db.TheLoai.ToList();
+                var theloai = _db.TheLoai.ToList();
+                ViewBag.TheLoai = theloai;
             }
-
-
-            ViewBag.TheLoai = theloai;
-
             return View("Index");
         }
     }

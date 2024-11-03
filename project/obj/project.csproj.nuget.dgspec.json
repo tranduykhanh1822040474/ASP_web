@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\project.csproj": {}
+    "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\project.csproj": {
+    "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\project.csproj",
-        "projectName": "project",
-        "projectPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\Project.csproj",
+        "projectName": "Project",
+        "projectPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\Project.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\project\\obj\\",
         "projectStyle": "PackageReference",
@@ -52,37 +52,39 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [

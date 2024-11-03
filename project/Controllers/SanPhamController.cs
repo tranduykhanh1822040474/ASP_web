@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using project.Data;
-using project.Models;
+using Project.Data;
+using Project.Models;
 
-namespace project.Controllers
+namespace Project.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
@@ -44,7 +44,6 @@ namespace project.Controllers
                 sanpham = _db.SanPham.Include("TheLoai").FirstOrDefault(sp => sp.Id == id);
                 return View(sanpham);
             }
-
         }
         [HttpPost]
         public IActionResult Upsert(SanPham sanpham)
@@ -64,7 +63,6 @@ namespace project.Controllers
             }
             return View();
         }
-
         [HttpPost]
         public IActionResult Delete(int id)
         {

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -79,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|c:\\users\\admin\\documents\\ltw\\asp_web\\baikiemtra03_04\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8AE334-8A15-4A5B-A217-B0E6A1EBE10E}|BaiKiemTra03_04.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -134,12 +134,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:37:40.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T07:37:40.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -151,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Delete.cshtml",
@@ -163,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -175,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Supplier\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Supplier\\Delete.cshtml",
@@ -187,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Supplier\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Supplier\\Details.cshtml",
@@ -199,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Supplier\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Supplier\\Edit.cshtml",
@@ -211,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Supplier\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Supplier\\Create.cshtml",
@@ -223,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Supplier\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Supplier\\Index.cshtml",
@@ -247,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SupplierController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Controllers\\SupplierController.cs",
               "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
@@ -255,12 +254,11 @@
               "RelativeToolTip": "Controllers\\SupplierController.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAAwH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:03:06.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T07:03:06.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Edit.cshtml",
@@ -272,19 +270,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Create.cshtml",
               "RelativeToolTip": "Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAvwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T06:59:56.682Z"
+              "WhenOpened": "2024-10-09T06:59:56.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
@@ -296,25 +295,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Order\\Index.cshtml",
               "RelativeToolTip": "Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-09T06:59:11.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAewDMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:58:21.479Z"
             },
@@ -332,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -356,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -368,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -380,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "Models\\Supplier.cs",
@@ -392,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",

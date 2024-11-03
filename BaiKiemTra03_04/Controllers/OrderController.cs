@@ -3,6 +3,7 @@ using BaiKiemTra03_04.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace BaiKiemTra03_04.Controllers
 {
@@ -16,24 +17,17 @@ namespace BaiKiemTra03_04.Controllers
         }
 
         // GET: Order
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index()
         {
-            var orders = from o in _context.Orders.Include(o => o.Supplier)
-                         select o;
-
-            if (!string.IsNullOrEmpty(searchString))
-            {
-                orders = orders.Where(o => o.OrderId.ToString().Contains(searchString) ||
-                                            o.TotalAmount.ToString().Contains(searchString));
-            }
-
-            return View(await orders.ToListAsync());
+            var orders = await _context.Orders.Include(o => o.Supplier).ToListAsync();
+            return View(orders);
         }
 
         // GET: Order/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            var order = await _context.Orders.Include(o => o.Supplier).FirstOrDefaultAsync(o => o.OrderId == id);
+            var order = await _context.Orders.Include(o => o.Supplier)
+                                              .FirstOrDefaultAsync(o => o.OrderId == id);
             if (order == null)
             {
                 return NotFound();
@@ -44,7 +38,7 @@ namespace BaiKiemTra03_04.Controllers
         // GET: Order/Create
         public IActionResult Create()
         {
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierName");
+            ViewBag.Suppliers = new SelectList(_context.Suppliers, "SupplierId", "SupplierName");
             return View();
         }
 
@@ -59,7 +53,7 @@ namespace BaiKiemTra03_04.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
+            ViewBag.Suppliers = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
             return View(order);
         }
 
@@ -71,7 +65,7 @@ namespace BaiKiemTra03_04.Controllers
             {
                 return NotFound();
             }
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
+            ViewBag.Suppliers = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
             return View(order);
         }
 
@@ -100,17 +94,17 @@ namespace BaiKiemTra03_04.Controllers
                     }
                     throw;
                 }
-                TempData["SuccessMessage"] = "Order updated successfully!";
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
+            ViewBag.Suppliers = new SelectList(_context.Suppliers, "SupplierId", "SupplierName", order.SupplierId);
             return View(order);
         }
 
         // GET: Order/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            var order = await _context.Orders.Include(o => o.Supplier).FirstOrDefaultAsync(o => o.OrderId == id);
+            var order = await _context.Orders.Include(o => o.Supplier)
+                                              .FirstOrDefaultAsync(o => o.OrderId == id);
             if (order == null)
             {
                 return NotFound();
@@ -128,7 +122,6 @@ namespace BaiKiemTra03_04.Controllers
             {
                 _context.Orders.Remove(order);
                 await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Order deleted successfully!";
             }
             return RedirectToAction(nameof(Index));
         }

@@ -2,16 +2,18 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace project.Models
+namespace Project.Models
 {
     public class SanPham
     {
+        internal int price;
+
         [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
-        public double price { get; set; }
+        public double Price { get; set; }
         public string? Description { get; set; }
         public string? ImageUrl { get; set; }
         [Required]
@@ -21,4 +23,3 @@ namespace project.Models
         public TheLoai TheLoai { get; set; }
     }
 }
-

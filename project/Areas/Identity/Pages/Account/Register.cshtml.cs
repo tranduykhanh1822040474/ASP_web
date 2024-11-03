@@ -22,7 +22,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Project.Models;
 
-namespace project.Areas.Identity.Pages.Account
+namespace Project.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

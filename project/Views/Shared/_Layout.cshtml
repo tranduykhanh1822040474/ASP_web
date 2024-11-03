@@ -3,27 +3,93 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - project</title>
+    <title>@ViewData["Title"] - Project</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/project.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Project.styles.css" asp-append-version="true" />
+    <style>
+        /* Light background for a fresh look */
+        body {
+            background-color: #f8f9fa; /* Light gray for background */
+            color: #343a40; /* Dark gray for main text */
+        }
+
+        .navbar {
+            background-color: #ffffff; /* White background for navbar */
+            border-bottom: 1px solid #dee2e6; /* Light gray border for separation */
+        }
+
+            .navbar .nav-link, .navbar .navbar-brand {
+                color: #343a40 !important; /* Dark gray text for navbar links */
+            }
+
+                .navbar .nav-link:hover {
+                    color: #007bff !important; /* Blue color on hover for better readability */
+                }
+
+        .footer {
+            background-color: #e9ecef; /* Light gray for footer background */
+            color: #343a40;
+            padding: 2rem 0;
+            border-top: 1px solid #dee2e6; /* Light gray border in footer */
+        }
+
+            .footer a {
+                color: #343a40 !important; /* Dark gray text for footer links */
+            }
+
+                .footer a:hover {
+                    color: #007bff !important; /* Blue color on hover */
+                }
+
+            .footer h5 {
+                color: #343a40;
+            }
+
+        .card {
+            background-color: #ffffff; /* White card background for readability */
+            border: 1px solid #dee2e6;
+            color: #343a40;
+        }
+
+        .container, .container-fluid {
+            background-color: #f8f9fa; /* Light gray background for consistency */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">project</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">
+                    <img src="~/images/logo.webp" alt="Logo" style="height: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <!-- Main navigation links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" href="/">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" href="/pages/about-us">Giới thiệu</a>
+                        </li>
+                        @await Component.InvokeAsync("TheLoai")
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/pages/chinh-sach-mua-hang" id="policyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Chính sách
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="policyDropdown">
+                                <li><a class="dropdown-item" href="/pages/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+                                <li><a class="dropdown-item" href="/pages/chinh-sach-mua-hang">Chính sách mua hàng</a></li>
+                                <li><a class="dropdown-item" href="/pages/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+                                <li><a class="dropdown-item" href="/pages/chinh-sach-van-chuyen">Chính sách vận chuyển</a></li>
+                                <li><a class="dropdown-item" href="/pages/chinh-sach-thu-cu">Chính sách thu cũ</a></li>
+                            </ul>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -31,19 +97,65 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="footer">
         <div class="container">
-            &copy; 2024 - project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-3">
+                    <h5>Về Chúng Tôi</h5>
+                    <p>Công ty chúng tôi chuyên cung cấp các sản phẩm chất lượng cao với giá cả hợp lý. Khách hàng luôn là ưu tiên hàng đầu của chúng tôi.</p>
+                </div>
+
+                <!-- Customer Service Section -->
+                <div class="col-md-3">
+                    <h5>Hỗ Trợ Khách Hàng</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Chính Sách Bảo Hành</a></li>
+                        <li><a href="#" class="text-dark">Chính Sách Đổi Trả</a></li>
+                        <li><a href="#" class="text-dark">Chính Sách Giao Hàng</a></li>
+                        <li><a href="#" class="text-dark">Hướng Dẫn Mua Hàng</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-md-3">
+                    <h5>Liên Hệ</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt-fill"></i> 123 Đường ABC, Quận X, TP. Y</li>
+                        <li><i class="bi bi-telephone-fill"></i> Điện thoại: 0123 456 789</li>
+                        <li><i class="bi bi-envelope-fill"></i> Email: support@company.com</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="col-md-3">
+                    <h5>Kết Nối Với Chúng Tôi</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-twitter"></i> Twitter</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-youtube"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="bg-dark">
+
+            <!-- Bottom Footer Section -->
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Công ty Bán Hàng Online. All rights reserved.</p>
+                <p><a href="#" class="text-dark">Điều Khoản Sử Dụng</a> | <a href="#" class="text-dark">Chính Sách Bảo Mật</a></p>
+            </div>
         </div>
-        <a asp-area="Identity" asp-page="/Account/Register" class="pl-3">Register </a>
-        <a asp-area="Identity" asp-page="/Account/Login" class="pl-3">Login </a>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

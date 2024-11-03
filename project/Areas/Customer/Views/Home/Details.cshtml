@@ -1,0 +1,104 @@
+﻿@model GioHang
+<style>
+    .product-title {
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #dc3545;
+    }
+
+    .quantity-control button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quantity-input {
+        width: 70px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        font-size: 1.1rem;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        font-size: 1.1rem;
+    }
+</style>
+
+
+<div class="container mt-5">
+    <form method="post">
+        <input type="hidden" sanphamid="@Model.SanPham.Id"/>
+    <div class="row">
+        <!-- Product Image -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="@Model.SanPham.ImageUrl" alt="Product Image" class="img-fluid rounded" style="max-height: 500px;">
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h2 class="product-title mb-3">@Model.SanPham.Name</h2>
+            <p class="text-muted">Mô tả: @Model.SanPham.Description</p>
+
+            <!-- Display formatted price -->
+            <h4 class="product-price text-danger mb-4">@string.Format("{0:N0} VNĐ", @Model.SanPham.Price)</h4>
+
+            <!-- Quantity Selector -->
+            <div class="quantity-control my-3 d-flex align-items-center">
+                <a type="button" class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</a>
+                <input asp-for="Quantity" id="quantity" type="number" class="form-control mx-2 text-center" style="width: 70px;" value="1" readonly>
+                <a type="button" class="btn btn-outline-secondary" onclick="increaseQuantity()">+</a>
+            </div>
+
+            <!-- Add to Cart and Buy Now Buttons -->
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+
+            <!-- Success Message -->
+            <div id="cart-message" class="alert alert-success mt-3 d-none">
+                Product added to cart successfully!
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+
+<!-- Quantity Control Script -->
+<script>
+    function decreaseQuantity() {
+        var quantityInput = document.getElementById('quantity');
+        var value = parseInt(quantityInput.value);
+        if (value > 1) {
+            quantityInput.value = value - 1;
+        }
+    }
+
+    function increaseQuantity() {
+        var quantityInput = document.getElementById('quantity');
+        quantityInput.value = parseInt(quantityInput.value) + 1;
+    }
+
+    function addToCart() {
+        var quantity = document.getElementById('quantity').value;
+        var messageDiv = document.getElementById('cart-message');
+        messageDiv.classList.remove('d-none');
+        messageDiv.textContent = 'Sản phẩm đã được thêm vào giỏ hàng với số lượng: ' + quantity;
+
+        setTimeout(function () {
+            messageDiv.classList.add('d-none');
+        }, 3000);
+    }
+</script>
+

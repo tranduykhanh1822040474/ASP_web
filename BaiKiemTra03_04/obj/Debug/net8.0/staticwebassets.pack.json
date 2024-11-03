@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\BaiKiemTra03_04.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\anhchup\\Create.png",
+      "PackagePath": "staticwebassets\\anhchup\\Create.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\anhchup\\Delete.png",
+      "PackagePath": "staticwebassets\\anhchup\\Delete.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\anhchup\\Details.png",
+      "PackagePath": "staticwebassets\\anhchup\\Details.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\anhchup\\Edit.png",
+      "PackagePath": "staticwebassets\\anhchup\\Edit.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\anhchup\\Index.png",
+      "PackagePath": "staticwebassets\\anhchup\\Index.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra03_04\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
